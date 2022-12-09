@@ -1,12 +1,12 @@
-# Migrate Monolithic service to Microservices
+# Migrate Monolithic Service to MicroServices Node + Expres whit Docker 📖
 
-## Clone repository
+## Clone repository 📚
 
 git clone [https://github.com/tamueka/microservice-section](https://github.com/tamueka/microservice-section)
 
 ---
 
-## Install dependencies monolothic arquitecture
+## Install dependencies monolothic arquitecture ⌨️
 
 ``` cmd
 cd \microservice-section\monolithic
@@ -14,7 +14,7 @@ cd \microservice-section\monolithic
 npm install
 ```
 
-## Install dependencies microservices arquitecture
+## Install dependencies microservices arquitecture ⌨️
 
 ### User Microservice:
 
@@ -24,7 +24,7 @@ cd \microservice-section\microservices\user-service\
 npm install
 ```
 
-### Car Microservice:
+### Car Microservice: 
 
 ``` cmd
 cd \microservice-section\microservices\car-service\
@@ -32,7 +32,7 @@ cd \microservice-section\microservices\car-service\
 npm install
 ```
 
-### Book Microservice:
+### Book Microservice: 
 
 ``` cmd
 cd \microservice-section\microservices\book-service\
@@ -42,7 +42,7 @@ npm install
 
 ---
 
-## Run docker compose
+## Run Docker compose 🚀
 
 ### Windows, Mac, Linux:
 Check that the Docker daemon is running
@@ -53,7 +53,7 @@ docker compose up --build
 
 ---
 
-## Go to browser
+## Go to browser 🤓
 
 Monolithics Service routes:
 * [http://localhost:8080/api/v1/users](http://localhost:8080/api/v1/users)
@@ -65,7 +65,7 @@ Microservice routes:
 * [http://localhost:8080/api/v2/books](http://localhost:8080/api/v2/books)
 * [http://localhost:8080/api/v2/cars](http://localhost:8080/api/v2/cars)
 
-## Stop docker compose
+## Stop docker compose 🛑
 
 ### Windows, Mac, Linux:
 Check that the Docker daemon is running
